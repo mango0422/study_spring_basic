@@ -6,6 +6,9 @@ public class Mouse {
 	private String country;
 	private String address;
 
+	public Mouse() {
+	}
+
 	public Mouse(String name, String country, String address) {
 		super();
 		this.name = name;
@@ -41,4 +44,3 @@ public class Mouse {
 		return "Mouse [id=" + id + ", name=" + name + ", country=" + country + ", address=" + address + "]";
 	}
 }
-
