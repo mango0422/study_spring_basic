@@ -1,11 +1,11 @@
 package dev.mvc.step02.dto;
 
-public class MouseDTO {
+public class MyMouseDTO {
     private String name;
     private String country;
     private String address;
 
-    public MouseDTO() {
+    public MyMouseDTO() {
     }
 
     public String getName() {

@@ -1,12 +1,12 @@
 package dev.mvc.step02.service;
 
-import dev.mvc.step02.model.Mouse;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class MouseService {
+import dev.mvc.step02.model.Mouse;
+
+public class MouseServiceV2 {
     private static List<Mouse> mice;
 
     static {
