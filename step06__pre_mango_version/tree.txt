@@ -1,0 +1,114 @@
+.
+├── build
+│   ├── classes
+│   │   └── java
+│   │       ├── main
+│   │       │   └── dev
+│   │       │       └── mvc
+│   │       │           └── spring
+│   │       │               ├── EmbeddedTomcatApplication.class
+│   │       │               └── HomeController.class
+│   │       └── test
+│   ├── generated
+│   │   └── sources
+│   │       ├── annotationProcessor
+│   │       │   └── java
+│   │       │       └── main
+│   │       └── headers
+│   │           └── java
+│   │               └── main
+│   ├── inplaceWebapp
+│   │   ├── META-INF
+│   │   │   └── MANIFEST.MF
+│   │   ├── WEB-INF
+│   │   │   ├── resoureces
+│   │   │   ├── spring
+│   │   │   │   ├── appServlet
+│   │   │   │   │   └── servlet-context.xml
+│   │   │   │   └── root-context.xml
+│   │   │   ├── views
+│   │   │   │   └── home.jsp
+│   │   │   └── web.xml
+│   │   ├── resources
+│   │   └── resoureces
+│   ├── libs
+│   │   └── step06__pre_mango_version-1.0.0.war
+│   ├── resources
+│   │   ├── main
+│   │   │   └── log4j2.xml
+│   │   └── test
+│   ├── serverBaseDir_tomcat10
+│   │   ├── webapps
+│   │   └── work
+│   │       └── Tomcat
+│   │           └── localhost
+│   │               └── step06__pre_mango_version
+│   │                   └── org
+│   │                       └── apache
+│   │                           └── jsp
+│   │                               └── WEB_002dINF
+│   │                                   └── views
+│   │                                       ├── home_jsp.class
+│   │                                       └── home_jsp.java
+│   └── tmp
+│       ├── compileJava
+│       │   ├── compileTransaction
+│       │   │   ├── backup-dir
+│       │   │   └── stash-dir
+│       │   │       └── EmbeddedTomcatApplication.class.uniqueId0
+│       │   └── previous-compilation-data.bin
+│       └── war
+│           └── MANIFEST.MF
+├── build.gradle
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+├── img
+│   └── img.png
+├── logs
+│   └── app.log
+├── readme.md
+├── spring-mvc.md
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── dev
+│   │   │       └── mvc
+│   │   │           └── spring
+│   │   │               ├── EmbeddedTomcatApplication.java
+│   │   │               └── HomeController.java
+│   │   ├── resources
+│   │   │   └── log4j2.xml
+│   │   └── webapp
+│   │       ├── META-INF
+│   │       │   └── MANIFEST.MF
+│   │       ├── WEB-INF
+│   │       │   ├── spring
+│   │       │   │   ├── appServlet
+│   │       │   │   │   └── servlet-context.xml
+│   │       │   │   └── root-context.xml
+│   │       │   ├── views
+│   │       │   │   └── home.jsp
+│   │       │   └── web.xml
+│   │       └── resources
+│   └── test
+│       ├── java
+│       └── resources
+├── tomcat.8080
+│   └── work
+│       └── Tomcat
+│           └── localhost
+│               └── ROOT
+│                   └── org
+│                       └── apache
+│                           └── jsp
+│                               └── WEB_002dINF
+│                                   └── views
+│                                       ├── home_jsp.class
+│                                       └── home_jsp.java
+└── tree.txt
+
+77 directories, 34 files

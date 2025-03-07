@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!--
+    모든 Web component 들에게 공유되는
+    bean들을 정의하는 파일(ex. controller, service, repository 등)
+
+    bean에 대한 설정을 xml로 할 경우 작성할 수 있는 파일
+  -->
+	
+</beans>

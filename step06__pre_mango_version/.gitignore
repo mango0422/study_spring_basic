@@ -1,0 +1,54 @@
+# ▶️ Gradle
+.gradle/
+build/
+!src/main/webapp/WEB-INF/views/**
+bin/
+
+# ▶️ IDE
+/.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# ▶️ 시스템 파일
+.DS_Store
+Thumbs.db
+
+# ▶️ OS 파일
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ▶️ 로그 및 결과 파일
+logs/
+*.log
+
+# ▶️ 환경 설정
+*.env
+.env.*
+
+# ▶️ TOMCAT 동작 중 생성된 파일
+tomcat.8080/
+
+# ▶️ 압축 파일 및 배포 파일
+*.war
+*.jar
+*.zip
+
+# ▶️ 임시 파일
+*.tmp
+*.bak
+*.swp
+
+# ▶️ Test 관련
+/test-output/
+coverage/
+jacoco.exec
+
+# ▶️ 기타
+node_modules/
+dist/
+out/
